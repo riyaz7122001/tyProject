@@ -1,0 +1,108 @@
+.Login {
+    width: 400px;
+    background: white;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 3px 5px rgb(0 0 0 /10%), 0 8px 16px rgb(0 0 0 /10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    margin-top: 10rem;
+    margin-left: 37%
+}
+
+.Login>input {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    margin-bottom: 0.7rem;
+    transition: 1s ease all;
+    width: 92%;
+    margin-bottom: 2rem;
+
+}
+
+.Login>input:hover {
+    background-color: #ccc;
+}
+
+.Login>input:focus {
+    border: 2px solid #f0c14b;
+}
+
+/* 
+.Login>button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    width: 90%;
+    transition: 1s ease all;
+    box-shadow: 0 3px 5px rgb(0 0 0 /10%), 0 8px 16px rgb(0 0 0 /10%);
+} */
+
+/* .Login>button:hover {
+    background-color: #3bb19b;
+    color: black;
+    font-weight: bold;
+} */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer button {
+    outline: none;
+    border: none;
+    background-color: #f0c14b;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 1px;
+    width: 100%;
+    transition: 1s ease;
+}
+
+.footer button:hover {
+    background-color: black;
+}
+
+.footer>p {
+    font-weight: 700;
+    color: black;
+}
+
+.footer span {
+    text-decoration: none;
+    font-weight: bold;
+    color: #9903ff;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+.footer>.error {
+    font-weight: bold;
+    font-size: 0.75rem;
+    color: red;
+}
+
+.footer>button:disabled {
+    background-color: gray !important;
+}
+
+p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 14px;
+}
